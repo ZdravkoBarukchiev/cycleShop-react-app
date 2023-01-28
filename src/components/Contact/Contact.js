@@ -1,8 +1,10 @@
 import { Footer } from "../Footer/Footer"
+import { Navigation } from "../Home/Navigation/Navigation"
 
 export const Contact = () => {
     return (
         <>
+            <Navigation />
             <div className="contact_section layout_padding">
                 <div className="container">
                     <div className="contact_main">

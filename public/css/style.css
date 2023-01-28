@@ -254,7 +254,7 @@ button {
 .navbar-expand-lg .navbar-nav .nav-link {
     padding-right: 15px;
     padding-left: 15px;
-    color: #e0dcdc !important;
+    color: #f1f1f7 !important;
     display: flex;
     font-size: 18px;
 }
@@ -274,13 +274,13 @@ button {
 .login_menu li{
     float: left;
     font-size: 18px;
-    color: #ffffff;
+    color: #f8f4f4;
     padding-left: 15px;
     padding-right: 15px;
 }
 .login_menu li a{
 
-    color: #ffffff;
+    color: #f5f4f8;
 }
 
 .sidenav {
