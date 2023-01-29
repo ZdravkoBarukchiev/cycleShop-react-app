@@ -9,7 +9,7 @@ export const Contact = () => {
                 <div className="container">
                     <div className="contact_main">
                         <h1 className="request_text">A Call Back</h1>
-                        <form action="/action_page.php">
+                        <form >
                             <div className="form-group">
                                 <input
                                     type="text"

@@ -1,9 +1,9 @@
 import { Navigation } from "../Navigation/Navigation"
-export const Home =()=>{
-    return(
-        <div className="header_section header_bg">
-        <Navigation />
-        <div className="banner_section layout_padding">
+export const Home = () => {
+  return (
+    <div className="header_section header_bg">
+      <Navigation />
+      <div className="banner_section layout_padding">
         <div id="main_slider" className="carousel slide" data-ride="carousel">
           <div className="carousel-inner">
             <div className="carousel-item active">
@@ -73,24 +73,8 @@ export const Home =()=>{
               </div>
             </div>
           </div>
-          <a
-            className="carousel-control-prev"
-            href="#main_slider"
-            role="button"
-            data-slide="prev"
-          >
-            <i className="fa fa-angle-left" />
-          </a>
-          <a
-            className="carousel-control-next"
-            href="#main_slider"
-            role="button"
-            data-slide="next"
-          >
-            <i className="fa fa-angle-right" />
-          </a>
         </div>
       </div>
-      </div>
-    )
+    </div>
+  )
 }
