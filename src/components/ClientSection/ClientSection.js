@@ -1,5 +1,6 @@
 export const ClientSection = () => {
     return (
+        
         <div className="client_section layout_padding">
             <div id="my_slider" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner">

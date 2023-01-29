@@ -1,4 +1,4 @@
-import { Navigation } from "../Home/Navigation/Navigation"
+import { Navigation } from "../Navigation/Navigation"
 
 export const About = () => {
     return (

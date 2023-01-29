@@ -1,5 +1,5 @@
 import { Footer } from "../Footer/Footer"
-import { Navigation } from "../Home/Navigation/Navigation"
+import { Navigation } from "../Navigation/Navigation"
 
 export const Contact = () => {
     return (
