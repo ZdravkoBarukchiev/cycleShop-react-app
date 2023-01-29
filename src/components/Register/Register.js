@@ -1,13 +1,13 @@
 import { Navigation } from "../Navigation/Navigation"
 
-export const Login = () => {
+export const Register = () => {
     return (
         <>
             <Navigation />
             <div className="contact_section layout_padding">
                 <div className="container">
                     <div className="contact_main">
-                        <h1 className="request_text">Login</h1>
+                        <h1 className="request_text">Register</h1>
                         <form >
                             <div className="form-group">
                                 <input
@@ -25,9 +25,17 @@ export const Login = () => {
                                     name="Password"
                                 />
                             </div>
+                            <div className="form-group">
+                                <input
+                                    type="password"
+                                    className="email-bt"
+                                    placeholder="Confirm Password"
+                                    name="ConfirmPassword"
+                                />
+                            </div>
                         </form>
                         <div className="send_btn">
-                            <a href="/">LOGIN</a>
+                            <a href="/">REGISTER</a>
                         </div>
                     </div>
                 </div>

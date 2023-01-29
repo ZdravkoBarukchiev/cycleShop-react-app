@@ -7,6 +7,7 @@ import { CycleSection } from "./components/CycleSection/CycleSection";
 import { Home } from "./components/Home/Home";
 import { Login } from "./components/Login/Login";
 import { News } from "./components/News/News";
+import { Register } from "./components/Register/Register";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path='/contact' element={<Contact />} />
         <Route path='/news' element={<News />} />
         <Route path='/login' element={<Login />} />
+        <Route path='/register' element={<Register />} />
       </Routes>
       <Copyright />
     </>

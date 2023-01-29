@@ -43,6 +43,11 @@ export const Navigation = () => {
                     </Link>
                 </li>
                 <li className="nav-item">
+                    <Link className="nav-link" to="/register">
+                        Register
+                    </Link>
+                </li>
+                <li className="nav-item">
                     <Link className="nav-link" to="/">
                         <img src="images/trolly-icon.png" alt='' />
                     </Link>
