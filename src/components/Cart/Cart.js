@@ -12,7 +12,7 @@ export const Cart = () => {
                     </p>
                     <div className="cycle_section_2 layout_padding">
                         <div className="row">
-
+                       
                         </div>
                     </div>
                 </div>
