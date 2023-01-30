@@ -14,7 +14,7 @@ export const Register = () => {
                                     type="email"
                                     className="email-bt"
                                     placeholder="Email"
-                                    name="Email"
+                                    name="email"
                                 />
                             </div>
                             <div className="form-group">
@@ -22,7 +22,7 @@ export const Register = () => {
                                     type="password"
                                     className="email-bt"
                                     placeholder="Password"
-                                    name="Password"
+                                    name="password"
                                 />
                             </div>
                             <div className="form-group">
@@ -30,7 +30,7 @@ export const Register = () => {
                                     type="password"
                                     className="email-bt"
                                     placeholder="Confirm Password"
-                                    name="ConfirmPassword"
+                                    name="confirmPassword"
                                 />
                             </div>
                         </form>

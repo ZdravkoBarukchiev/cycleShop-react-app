@@ -14,7 +14,7 @@ export const Login = () => {
                                     type="email"
                                     className="email-bt"
                                     placeholder="Email"
-                                    name="Email"
+                                    name="email"
                                 />
                             </div>
                             <div className="form-group">
@@ -22,7 +22,7 @@ export const Login = () => {
                                     type="password"
                                     className="email-bt"
                                     placeholder="Password"
-                                    name="Password"
+                                    name="password"
                                 />
                             </div>
                         </form>

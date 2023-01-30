@@ -15,7 +15,7 @@ export const Contact = () => {
                                     type="text"
                                     className="email-bt"
                                     placeholder="Name"
-                                    name="Name"
+                                    name="name"
                                 />
                             </div>
                             <div className="form-group">
@@ -23,7 +23,7 @@ export const Contact = () => {
                                     type="text"
                                     className="email-bt"
                                     placeholder="Email"
-                                    name="Name"
+                                    name="name"
                                 />
                             </div>
                             <div className="form-group">
@@ -31,7 +31,7 @@ export const Contact = () => {
                                     type="text"
                                     className="email-bt"
                                     placeholder="Phone Numbar"
-                                    name="Email"
+                                    name="email"
                                 />
                             </div>
                             <div className="form-group">
