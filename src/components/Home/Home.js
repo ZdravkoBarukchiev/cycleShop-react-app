@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom"
 import { Navigation } from "../Navigation/Navigation"
 export const Home = () => {
   return (
@@ -22,7 +23,7 @@ export const Home = () => {
                       distracted by the readable content{" "}
                     </p>
                     <div className="contact_bt">
-                      <a href="contact.html">Shop Now</a>
+                      <Link to="/cycles">Shop Now</Link>
                     </div>
                   </div>
                 </div>

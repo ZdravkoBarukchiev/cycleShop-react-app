@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { About } from "./components/About/About";
+import { Cart } from "./components/Cart/Cart";
 import { ClientSection } from "./components/ClientSection/ClientSection";
 import { Contact } from "./components/Contact/Contact";
 import { Copyright } from "./components/Copyright/Copyright";
@@ -21,6 +22,7 @@ function App() {
         <Route path='/news' element={<News />} />
         <Route path='/login' element={<Login />} />
         <Route path='/register' element={<Register />} />
+        <Route path='/cart' element={<Cart />} />
       </Routes>
       <Copyright />
     </>

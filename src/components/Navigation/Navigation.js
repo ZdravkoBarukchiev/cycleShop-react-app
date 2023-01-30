@@ -23,11 +23,6 @@ export const Navigation = () => {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/">
-                        Shop
-                    </Link>
-                </li>
-                <li className="nav-item">
                     <Link className="nav-link" to="/news">
                         News
                     </Link>
@@ -48,7 +43,7 @@ export const Navigation = () => {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link className="nav-link" to="/">
+                    <Link className="nav-link" to="/cart">
                         <img src="images/trolly-icon.png" alt='' />
                     </Link>
                 </li>
