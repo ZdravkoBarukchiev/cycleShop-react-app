@@ -40,9 +40,10 @@ export const Login = () => {
                                     name="password"
                                 />
                             </div>
+
+                            <button href="/">LOGIN</button>
                         </form>
                         <div className="send_btn">
-                            <a href="/">LOGIN</a>
                         </div>
                     </div>
                 </div>
