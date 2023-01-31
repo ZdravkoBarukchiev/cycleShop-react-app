@@ -1,6 +1,21 @@
+import { useContext } from "react";
+import { useNavigate } from "react-router-dom";
+import { AuthContext } from "../../contexts/authContext/authContext";
+import { authService } from "../../services/authServise/authService";
 import { Navigation } from "../Navigation/Navigation"
 
 export const Login = () => {
+    const { userLogin } = useContext(AuthContext);
+    const navigate = useNavigate();
+    const onSubmit = (e) => {
+        e.preventDefault();
+        const { email, password } = Object.fromEntries(new FormData(e.target));
+
+        authService("/login", email, password).then((result) => {
+            userLogin(result);
+            navigate("/");
+        });
+    }
     return (
         <>
             <Navigation />
@@ -8,7 +23,7 @@ export const Login = () => {
                 <div className="container">
                     <div className="contact_main">
                         <h1 className="request_text">Login</h1>
-                        <form >
+                        <form onSubmit={onSubmit}>
                             <div className="form-group">
                                 <input
                                     type="email"
