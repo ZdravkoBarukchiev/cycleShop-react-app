@@ -44,10 +44,10 @@ export const Contact = () => {
                                     defaultValue={""}
                                 />
                             </div>
+                            <div className="send_btn">
+                                <button>SEND</button>
+                            </div>
                         </form>
-                        <div className="send_btn">
-                            <a href="/">SEND</a>
-                        </div>
                     </div>
                 </div>
             </div>

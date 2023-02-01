@@ -33,10 +33,10 @@ export const Register = () => {
                                     name="confirmPassword"
                                 />
                             </div>
+                            <div className="send_btn">
+                                <button>REGISTER</button>
+                            </div>
                         </form>
-                        <div className="send_btn">
-                            <a href="/">REGISTER</a>
-                        </div>
                     </div>
                 </div>
             </div>

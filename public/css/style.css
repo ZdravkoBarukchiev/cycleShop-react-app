@@ -1002,7 +1002,7 @@ textarea#comment::placeholder {
     margin: 0px auto;
 }
 
-.send_btn a {
+.send_btn button {
     width: 100%;
     float: left;
     color: #ffffff;
@@ -1012,7 +1012,7 @@ textarea#comment::placeholder {
     border-radius: 10px;
 }
 
-.send_btn a:hover {
+.send_btn button:hover {
     color: #000;
     background-color: #ffffff;
 }
