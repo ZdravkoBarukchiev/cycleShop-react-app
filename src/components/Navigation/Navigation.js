@@ -10,7 +10,7 @@ export const Navigation = () => {
                 <Link to="/" className="logo">
                     <img src="images/logo.png" alt='' />
                 </Link>
-                <ul className="navbar-nav mr-auto">
+                <ul className="navbar-nav m-auto">
                     <li className="nav-item active">
                         <Link className="nav-link" to="/">
                             Home
@@ -60,7 +60,7 @@ export const Navigation = () => {
             <Link to="/" className="logo">
                 <img src="images/logo.png" alt='' />
             </Link>
-            <ul className="navbar-nav mr-auto">
+            <ul className="navbar-nav m-auto">
                 <li className="nav-item active">
                     <Link className="nav-link" to="/">
                         Home
