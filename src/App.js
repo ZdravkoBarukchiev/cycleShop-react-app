@@ -11,6 +11,7 @@ import { Login } from "./components/Login/Login";
 import { News } from "./components/News/News";
 import { Register } from "./components/Register/Register";
 import { AuthContext } from "./contexts/authContext/authContext";
+import { Logout } from "./Logout/Logout";
 
 function App() {
   const [loginData, setLoginData] = useState({});
@@ -33,6 +34,7 @@ function App() {
           <Route path='/login' element={<Login />} />
           <Route path='/register' element={<Register />} />
           <Route path='/cart' element={<Cart />} />
+          <Route path='/logout' element={<Logout />} />
         </Routes>
         <Copyright />
       </AuthContext.Provider>
