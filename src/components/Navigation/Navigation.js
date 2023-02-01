@@ -10,6 +10,11 @@ export const Navigation = () => {
                 <Link to="/" className="logo">
                     <img src="images/logo.png" alt='' />
                 </Link>
+                <li className="nav-item active">
+                        <Link className="nav-link" to="/">
+                            {loginData.email}
+                        </Link>
+                    </li>
                 <ul className="navbar-nav m-auto">
                     <li className="nav-item active">
                         <Link className="nav-link" to="/">
